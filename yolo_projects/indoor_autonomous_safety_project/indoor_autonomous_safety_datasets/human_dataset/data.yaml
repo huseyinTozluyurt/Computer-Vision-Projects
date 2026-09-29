@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Car', 'Cycle', 'Left', 'Normal', 'Phone', 'Right']
+
+roboflow:
+  workspace: tongji-sdii-lab
+  project: human-9tj3t
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tongji-sdii-lab/human-9tj3t/dataset/1

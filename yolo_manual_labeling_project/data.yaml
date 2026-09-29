@@ -1,0 +1,10 @@
+path: dataset
+train: images/train
+val: images/val
+
+names:
+  0: car
+  1: bicycle
+  2: person
+  3: cat
+  4: traffic_light

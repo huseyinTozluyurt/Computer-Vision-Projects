@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['D', 'German  Shepherd', 'German Shepherd', 'chow chow']
+
+roboflow:
+  workspace: nontaporn
+  project: dog-dog-zhjha
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nontaporn/dog-dog-zhjha/dataset/1

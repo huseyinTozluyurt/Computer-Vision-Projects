@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 19
+names: ['court', 'double_stitch', 'grass_ground', 'heel_mudguard', 'lace_keeper', 'long_heel', 'mustache', 'perforated_panel', 'road', 'short_heel', 'slip_on', 'textured_panel', 'toe_mudguard', 'tongue', 'top_heel', 'track', 'trail', 'turf', 'with_laces']
+
+roboflow:
+  workspace: nagarro-ffexn
+  project: shoe-5vp5j
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nagarro-ffexn/shoe-5vp5j/dataset/2

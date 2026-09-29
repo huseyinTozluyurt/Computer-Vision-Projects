@@ -1,0 +1,12 @@
+path: /home/huseyin/opencv_env/yolo_projects/indoor_autonomous_safety_project/unified_safety_dataset
+train: train/images
+val: val/images
+test: test/images
+
+nc: 5
+names:
+  0: cat
+  1: dog
+  2: human
+  3: shoe
+  4: trouser

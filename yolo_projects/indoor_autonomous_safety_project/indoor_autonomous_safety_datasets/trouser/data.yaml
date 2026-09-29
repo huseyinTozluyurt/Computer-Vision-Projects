@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['cap', 'jacket', 'pants']
+
+roboflow:
+  workspace: lr1-shulgan
+  project: lr1-nt84n
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lr1-shulgan/lr1-nt84n/dataset/1

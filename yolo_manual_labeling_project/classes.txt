@@ -1,0 +1,5 @@
+car
+bicycle
+person
+cat
+traffic light
